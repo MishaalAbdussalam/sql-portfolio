@@ -1,4 +1,4 @@
-# Layoffs Data Analysis Project
+# Global Layoffs Data Analysis 
 
 ## 📋 Project Overview
 This project demonstrates a complete data analytics workflow: cleaning raw layoff data, standardizing formats, handling missing values, and performing exploratory data analysis (EDA) to uncover trends in workforce reductions across companies and industries.
