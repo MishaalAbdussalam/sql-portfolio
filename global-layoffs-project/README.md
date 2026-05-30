@@ -1,15 +1,15 @@
 # Global Layoffs Data Analysis 
 
-## 📋 Project Overview
+## Project Overview
 This project demonstrates a complete data analytics workflow: cleaning raw layoff data, standardizing formats, handling missing values, and performing exploratory data analysis (EDA) to uncover trends in workforce reductions across companies and industries.
 
-## 📁 Files
+## Files
 - **Project data cleaning.sql** - Data cleaning and preparation
 - **Exploratory Data Analysis.sql** - Analysis queries and insights
 
 ---
 
-## 🧹 Data Cleaning Process
+## Data Cleaning Process
 
 ### Steps Performed:
 
@@ -37,7 +37,7 @@ This project demonstrates a complete data analytics workflow: cleaning raw layof
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### Key Insights Discovered:
 
