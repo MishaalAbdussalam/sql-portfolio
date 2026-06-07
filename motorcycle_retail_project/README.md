@@ -96,26 +96,26 @@ In-depth analytical queries with business intelligence views.
 ## Key Business Insights
 
 ### Growth & Performance
-- ✅ Consistent and steady business growth over 4+ years
-- ✅ Strong year-over-year growth with doubled revenue in consecutive years
-- ⚠️ 2013 was the peak sales year
-- ⚠️ 2012 had lowest full-year sales (partial data for 2010 & 2014)
+-  Consistent and steady business growth over 4+ years
+-  Strong year-over-year growth with doubled revenue in consecutive years
+-  2013 was the peak sales year
+-  2012 had lowest full-year sales (partial data for 2010 & 2014)
 
 ### Customer Base
-- 📊 Large volume of new customers (14,828) indicates strong acquisition
-- 📊 Smaller long-term customer base suggests retention opportunity
-- 💡 Recommendation: Focus on converting new customers to repeat/VIP status
+-  Large volume of new customers (14,828) indicates strong acquisition
+-  Smaller long-term customer base suggests retention opportunity
+-  Recommendation: Focus on converting new customers to repeat/VIP status
 
 ### Product Portfolio
-- 🏍️ Heavy reliance on bikes (96.5% of revenue) - concentrated risk
-- 🎯 Accessories and clothing represent growth opportunity
-- 📈 Majority of products are low-cost items (<€100)
-- ⭐ Only 5 premium products (>€2,000)
+-  Heavy reliance on bikes (96.5% of revenue) - concentrated risk
+-  Accessories and clothing represent growth opportunity
+-  Majority of products are low-cost items (<€100)
+-  Only 5 premium products (>€2,000)
 
 ### Seasonality
-- 📅 Sales peak towards end of year (holiday season effect)
-- 📅 Notable mid-year uplift in June worth monitoring
-- 💡 Recommendation: Plan inventory and marketing around seasonal patterns
+-  Sales peak towards end of year (holiday season effect)
+-  Notable mid-year uplift in June worth monitoring
+-  Recommendation: Plan inventory and marketing around seasonal patterns
 
 ---
 
@@ -177,28 +177,3 @@ SELECT customer_segments, COUNT(*) as count,
 FROM report_customers
 GROUP BY customer_segments;
 ```
-
----
-
-## Requirements
-- SQL database with data warehouse analytics schema
-- Tables: `fact_sales`, `dim_customers`, `dim_products`
-- `information_schema` access for exploration queries
-
----
-
-## Notes
-- Data spans from 2010 to 2014
-- All sales amounts in Euros (€)
-- Customer ages calculated from birthdate to current date
-- Recency measured in months from last activity to current date
-
----
-
-## Future Enhancements
-- [ ] Product affinity analysis (frequently bought together)
-- [ ] Geographic heat maps of sales by region
-- [ ] Customer lifetime value (CLV) prediction
-- [ ] Churn prediction for at-risk customers
-- [ ] Price elasticity analysis
-- [ ] Inventory optimization based on sales patterns
