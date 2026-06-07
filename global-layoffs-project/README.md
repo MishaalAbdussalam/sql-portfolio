@@ -66,3 +66,6 @@ This project demonstrates a complete data analytics workflow: cleaning raw layof
    - Top companies within each industry (using RANK)
    - Year-over-year comparisons of company rankings
 
+##  Technologies Used
+- **SQL Dialect**: MySQL
+- **Functions**: CTEs, Window Functions (ROW_NUMBER, DENSE_RANK, RANK), String Functions, Date Functions
