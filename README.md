@@ -19,3 +19,6 @@ Analysis of global layoff trends with data cleaning and exploratory data analysi
 
 ## Getting Started
 Each project folder contains its own README with more details.
+
+## Connect
+[LinkedIn](https://www.linkedin.com/in/mishaal-abdussalam/)
