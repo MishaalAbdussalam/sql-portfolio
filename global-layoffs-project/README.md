@@ -51,7 +51,7 @@ This project demonstrates a complete data analytics workflow: cleaning raw layof
    - Tracks how companies' layoff volumes compare
 
 3. **Temporal Patterns**
-   - 2023 had the most layoffs at 125677, followed by 2022 at 160661 and 2021 at 15823
+   - 2022 had the most layoffs at 160661, followed by 2023 at 125677 and 2020 at 80998
    - Rolling totals show acceleration/deceleration of layoff trends
 
 4. **Ranking & Benchmarking**
