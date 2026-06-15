@@ -42,26 +42,19 @@ This project demonstrates a complete data analytics workflow: cleaning raw layof
 ### Key Insights Discovered:
 
 1. **Funding Stage Impact**
-   - Identifies which funding stages (Series A, B, C, etc.) had the most layoffs
-   - Compares average percentage of workforce affected by stage
-   - Reveals which stage companies were most affected
+   - Post-IPO stage had the most layoffs at 204132 followed by acquired at 40716 and Series C at 20017
+   - Compares average percentage of workforce affected by stage with Seed stage being the largest stage afected at 0.7%
 
 2. **Company-Level Trends**
-   - Top companies with highest total layoffs
-   - Year-over-year layoff patterns for specific companies (e.g., Google)
+   - Amazon had the highest total layoffs at 18158 followed by Google at 12000 and Meta at 11000
+   - Year-over-year layoff patterns for specific companies
    - Tracks how companies' layoff volumes compare
 
 3. **Temporal Patterns**
-   - Year-over-year breakdown showing peak layoff years
-   - Monthly granularity reveals seasonality in layoff announcements
+   - 2023 had the most layoffs at 125677, followed by 2022 at 160661 and 2021 at 15823
    - Rolling totals show acceleration/deceleration of layoff trends
 
-4. **Industry Analysis**
-   - Industries with the most layoffs
-   - Top companies within each industry
-   - Identifies hardest-hit sectors
-
-5. **Ranking & Benchmarking**
+4. **Ranking & Benchmarking**
    - Top 5 companies by layoffs per year (using DENSE_RANK)
    - Top companies within each industry (using RANK)
    - Year-over-year comparisons of company rankings
