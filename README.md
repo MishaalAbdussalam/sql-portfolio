@@ -10,6 +10,8 @@ Comprehensive SQL analysis of a motorcycle retail business with exploratory data
 - **Key Insights:** 4+ years of growth data, customer segmentation, seasonal patterns, 7 strategic business recommendations
 - **Analysis Includes:** Time-series analysis, product performance ranking, customer loyalty segmentation, revenue diversification opportunities
 
+ - The customer_report and product_report views built in this project were used to create a three-page interactive **Power BI** 
+   dashboard covering executive summary, customer analysis, and product performance.
 ---
 
 ### [Global Layoffs Project](./global-layoffs-project/)
