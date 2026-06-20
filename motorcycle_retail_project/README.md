@@ -177,7 +177,7 @@ ORDER BY total_sales DESC;
 ## Business Recommendations
 
 ### 1. **Improve Customer Retention** 
-**Issue:** 89.7% of customers are new (<12 months), with only 21.8% achieving VIP or Regular status.
+**Issue:** 80.2% of customers are new (<12 months), with only 19.8% achieving VIP or Regular status.
 
   - Introduce a tiered loyalty program to encourage repeat purchases and increase Regular/VIP customers.
   - Launch personalized re-engagement campaigns targeting inactive customers.
