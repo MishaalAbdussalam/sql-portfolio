@@ -73,6 +73,9 @@ In-depth analytical queries with business intelligence views.
   - **VIP**: 1,617 Customers (12+ months history, >€5,000 spent)
   - **Regular**: 2,039 Customers (12+ months history, ≤€5,000 spent)
   - **New**: 14,826 Customers (< 12 months history)
+  
+ 
+  <img src="https://github.com/MishaalAbdussalam/powerbi_portfolio/blob/main/motorcycle_retail_dashboard/screenshots/total_customers_by_segments.png?raw=true" width="500">
 
 **F. SQL Views Created**
 
@@ -174,6 +177,7 @@ FROM report_products
 ORDER BY total_sales DESC
 LIMIT 5;
 ```
+<img src="https://github.com/MishaalAbdussalam/powerbi_portfolio/blob/main/motorcycle_retail_dashboard/screenshots/top5_products_by_revenue.png?raw=true" width="500">
 
 ## Business Recommendations
 
