@@ -226,3 +226,13 @@ LIMIT 5;
   - Regularly review underperforming products for repricing, bundling, or discontinuation.
   - Identify growth opportunities among mid-performing products.
   - Invest more heavily in top-performing products and replicate their successful attributes.
+
+## Dashboard
+The customer_report and product_report views built in this 
+project were used to create a three-page interactive Power BI 
+dashboard covering executive summary, customer analysis, and 
+product performance.
+
+[View Power BI Dashboard Project](https://github.com/MishaalAbdussalam/powerbi_portfolio/tree/main/motorcycle_retail_dashboard)
+
+<img src="https://raw.githubusercontent.com/MishaalAbdussalam/powerbi_portfolio/main/motorcycle_retail_dashboard/screenshots/executive_summary.png" width="700">
