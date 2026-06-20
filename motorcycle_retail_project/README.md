@@ -70,9 +70,9 @@ In-depth analytical queries with business intelligence views.
   - Above €2,000: 5 products (high-end models)
 
 - Customers by spending behavior:
-  - **VIP**: 1,619 (12+ months history, >€5,000 spent)
-  - **Regular**: 2,037 (12+ months history, ≤€5,000 spent)
-  - **New**: 14,828 (< 12 months history)
+  - **VIP**: 1,617 Customers (12+ months history, >€5,000 spent)
+  - **Regular**: 2,039 Customers (12+ months history, ≤€5,000 spent)
+  - **New**: 14,826 Customers (< 12 months history)
 
 **F. SQL Views Created**
 
@@ -102,7 +102,7 @@ In-depth analytical queries with business intelligence views.
 -  2012 had lowest full-year sales (partial data for 2010 & 2014)
 
 ### Customer Base
--  Large volume of new customers (14,828) indicates strong acquisition
+-  Large volume of new customers (14,826) indicates strong acquisition
 -  Smaller long-term customer base suggests retention opportunity
 -  Recommendation: Focus on converting new customers to repeat/VIP status
 
@@ -165,13 +165,14 @@ FROM report_customers
 ORDER BY total_sales DESC
 LIMIT 10;
 ```
+<img src="https://github.com/MishaalAbdussalam/powerbi_portfolio/blob/main/motorcycle_retail_dashboard/screenshots/top10_customers_by_revenue.png? raw=true" width="500">
 
-**Identify high-performing products:**
+**Identify Top 5 high-performing products:**
 ```sql
 SELECT product_name, category, total_sales, product_segment
 FROM report_products
-WHERE product_segment = 'High-Performer'
-ORDER BY total_sales DESC;
+ORDER BY total_sales DESC
+LIMIT 5;
 ```
 
 ## Business Recommendations
@@ -183,6 +184,7 @@ ORDER BY total_sales DESC;
   - Launch personalized re-engagement campaigns targeting inactive customers.
   - Focus on high Customer Lifetime Value (CLV) segments to improve retention and marketing efficiency.
 
+<img src="https://github.com/MishaalAbdussalam/powerbi_portfolio/blob/main/motorcycle_retail_dashboard/screenshots/total_customers_by_segments.png? raw=true" width="500">
 ---
 
 ### 2. **Diversify Revenue Streams - Expand Accessories & Clothing** 
@@ -191,6 +193,8 @@ ORDER BY total_sales DESC;
   - Increase accessory and clothing sales through product bundles and checkout upselling.
   - Launch targeted campaigns for existing bike customers.
   - Aim to reduce revenue concentration by growing accessories and apparel as a share of total sales.
+
+ <img src="https://github.com/MishaalAbdussalam/powerbi_portfolio/blob/main/motorcycle_retail_dashboard/screenshots/revenue_by_category.png?raw=true" width="500">
 
 ---
 
